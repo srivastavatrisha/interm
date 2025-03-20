@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/*
+body{
+    background: linear-gradient(url(''));
+    background-size: cover;
+    color: #fff;
+} */
+body {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(67, 60, 109);
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+  @keyframes example {
+    from {background-color: rgb(36, 161, 150);}
+    to {background-color: rgb(22, 91, 148);}
+  }
+
+.Form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    
+}
+
+.Form h1{
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+
+}
+
+.Form p{
+    font-size: 20px;
+    margin: 15px 0;
+
+}
+
+.Form input{
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+.Form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+
+}
+
+.Form button:hover{
+    color: red;
+}
+
+.h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 60%;
+}
+    
